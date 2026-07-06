@@ -1,60 +1,83 @@
-# Hi, I’m Yotam Faraggi
+<div align="center">
+  <h1>Yotam Faraggi</h1>
+  <p><strong>Senior Product Engineer</strong></p>
+  <p>Designing and shipping AI-enabled web products from first system sketch to production.</p>
+  <p>
+    Berlin, Germany · EU citizen · Open to Senior Product & Full-Stack Engineering roles
+  </p>
+  <p>
+    <a href="https://cart-shift.com/cv">Portfolio & CV</a> ·
+    <a href="https://atlasirwin.com">Atlas Irwin</a> ·
+    <a href="mailto:yotamon@gmail.com">Email</a>
+  </p>
+</div>
 
-**Senior Full-Stack Product Engineer** building thoughtful, production-ready web products with modern TypeScript, AI, and product infrastructure.
+---
 
-Based in Berlin, Germany · EU citizen · Open to Senior Product Engineering opportunities
+I’m a full-stack product engineer who likes difficult product problems: messy workflows, disconnected systems, unclear ownership, and ideas that need to become something people can rely on.
 
-I enjoy taking ambiguous product ideas from first principles to reliable, well-crafted systems: the product thinking, UX details, frontend, backend, data model, integrations, security, and operational work around them.
+I work across the whole product surface: user experience, frontend architecture, backend services, data models, external integrations, authentication, operational tooling, and the details required to run safely in production.
 
-## What I build
+## What I bring
 
-* AI-powered SaaS products and product workflows
-* Full-stack web applications with complex state, data, and permissions
-* Creator, e-commerce, and internal operations tooling
-* Integrations that connect real products to real-world platforms
+| Strength | What it looks like in practice |
+| --- | --- |
+| **End-to-end ownership** | Turning a vague product direction into a working, maintainable system. |
+| **Product-minded engineering** | Making technical choices in service of clarity, speed, and the user workflow. |
+| **AI and integration systems** | Building useful AI-assisted workflows alongside OAuth, billing, data sync, and third-party platforms. |
+| **Production discipline** | Treating permissions, failure states, migrations, observability, and security as part of the product. |
 
 ## Selected work
 
 ### [Atlas Irwin Release Engine](https://github.com/yotamon/Atlas-Irwin)
+**Creator operations platform · Live product**
 
-A creator-operations platform behind an independent artist website and release workflow. It combines a public site with a private Studio for catalog management, media, release campaigns, content planning, and performance tracking.
+A production platform behind an independent music project. It combines a public artist website with a private Studio for managing releases, media, campaigns, content planning, platform data, and audience-growth workflows.
 
-**Highlights:** Next.js, TypeScript, Supabase, PostgreSQL, OAuth 2.1 + PKCE, SoundCloud and Spotify integrations, protected admin workflows, RLS, security headers, Vercel deployment.
+**What I built**
+- A canonical release catalog that publishes changes to the public site without redeploying
+- A protected Studio for release management, campaign planning, media workflows, analytics, and data quality
+- SoundCloud and Spotify integrations using OAuth 2.1 with PKCE
+- Secure token storage, Supabase Row-Level Security, private asset access, and production security headers
+- Import and migration tooling that turns legacy release data into a structured, maintainable system
 
-[Live product →](https://atlasirwin.com)
+**Stack:** TypeScript · Next.js · React · Supabase · PostgreSQL · OAuth 2.1 / PKCE · Vercel
 
-### StarLinker · Private SaaS
+[Explore the live product →](https://atlasirwin.com)
 
-A visual productivity platform that turns goals, tasks, knowledge, and relationships into an interactive map. Built as a multi-surface product with real-time collaboration, offline-aware sync, AI workflows, role-based access, billing, and mobile support.
+### StarLinker
+**Private SaaS · Visual workspace for complex personal and team workflows**
 
-**Highlights:** Next.js, React, TypeScript, PostgreSQL, Drizzle ORM, Supabase Auth, Replicache, Zustand, React Flow, Vercel AI SDK, MCP, Stripe, Sentry, Capacitor, Jest, Playwright.
+A visual productivity product that turns goals, tasks, knowledge, habits, and relationships into an interactive map. It is built for people who think better through spatial context than through endless lists.
 
-The full source is private, but I’m happy to walk through the system architecture, product decisions, and selected implementation details in an interview.
+**System highlights**
+- Real-time collaboration, role-based access, offline-aware sync, and multi-board sharing
+- Complex canvas interactions with graph relationships, templates, keyboard-first workflows, and undo/redo
+- AI-assisted planning, task breakdown, graph-aware recommendations, and MCP access
+- Subscription billing, lifecycle flows, audit logging, admin operations, and monitoring
+- Web, PWA, and Capacitor mobile surfaces
 
-### [CartShift](https://cart-shift.com/cv)
+**Stack:** TypeScript · Next.js · PostgreSQL · Drizzle · Supabase · Replicache · Zustand · React Flow · Vercel AI SDK · Stripe · Sentry · Playwright
 
-Product-focused portfolio and CV, with selected work spanning e-commerce, AI-assisted workflows, and modern web systems.
+The source is private, but I’m happy to discuss the architecture, product decisions, and selected implementation details.
 
-## Core stack
+## Core toolkit
 
-**Frontend**
-TypeScript · React · Next.js · Tailwind CSS · React Query · Zustand · Modern UI systems
-
-**Backend & Data**
-Node.js · PostgreSQL · Supabase · Drizzle ORM · Prisma · REST APIs · Authentication · Row-Level Security
-
-**AI & Integrations**
-Vercel AI SDK · OpenAI-compatible APIs · MCP · OAuth 2.1 / PKCE · Stripe · Resend · SoundCloud · Spotify
-
-**Shipping & Quality**
-Vercel · Docker · GitHub · Playwright · Jest · Sentry · Analytics · Security headers · Performance work
+| Product UI | Backend & data | AI, integrations & delivery |
+| --- | --- | --- |
+| TypeScript · React · Next.js · Tailwind · React Query · Zustand | Node.js · PostgreSQL · Supabase · Drizzle · Prisma · REST APIs | Vercel AI SDK · LLM APIs · MCP · OAuth 2.1 / PKCE · Stripe · Vercel · Docker · Playwright · Jest · Sentry |
 
 ## How I work
 
-I care about products that feel clear and intentional, not merely technically complete. I like working closely with product and design, reducing complexity before adding it, and building systems that a team can confidently evolve after launch.
+- Start with the user workflow and make the system earn its complexity.
+- Build clear boundaries between product rules, UI state, infrastructure, and integrations.
+- Prefer durable, understandable solutions over clever abstractions.
+- Use AI to accelerate product work while keeping engineering judgment and accountability human.
 
-## Let’s connect
+## Outside the implementation
 
-* Portfolio & CV: [cart-shift.com/cv](https://cart-shift.com/cv)
-* Selected product: [atlasirwin.com](https://atlasirwin.com)
-* GitHub: [@yotamon](https://github.com/yotamon)
+I care about products that feel intentional, calm, and genuinely useful. I’m especially drawn to AI-native workflows, creative tools, commerce systems, and software that helps people make sense of complexity.
+
+---
+
+**Interested in working together?** Start with my [portfolio & CV](https://cart-shift.com/cv), explore [Atlas Irwin](https://atlasirwin.com), or [email me](mailto:yotamon@gmail.com).
