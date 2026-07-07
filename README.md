@@ -3,8 +3,9 @@
   <p><strong>Senior Product Engineer turning fuzzy ideas into polished, AI-enabled products people genuinely enjoy using.</strong></p>
   <p>Berlin, Germany · EU citizen · Open to Senior Product & Full-Stack Engineering roles</p>
   <p>
+    <a href="https://cart-shift.com/en">CartShift Studio</a> ·
     <a href="https://cart-shift.com/cv">Portfolio & CV</a> ·
-    <a href="https://atlasirwin.com">Live product</a> ·
+    <a href="https://atlasirwin.com">Atlas Irwin</a> ·
     <a href="mailto:yotamon@gmail.com">Say hello</a>
   </p>
 </div>
@@ -19,7 +20,7 @@ I work across the whole product surface: UX, frontend architecture, backend serv
 
 | ✦ What I’m drawn to | 🛠️ What I tend to own |
 | --- | --- |
-| AI-native workflows · creative tools · commerce · operational products · systems that reduce cognitive load | Product direction · UX decisions · frontend · backend · data · integrations · security · shipping |
+| AI-native workflows · e-commerce · creative tools · operational products · systems that reduce cognitive load | Product direction · UX decisions · frontend · backend · data · integrations · security · shipping |
 
 ## The kind of problems I love
 
@@ -29,6 +30,25 @@ I work across the whole product surface: UX, frontend architecture, backend serv
 - **Making systems future-friendly.** Clear boundaries, migrations, observability, sensible defaults, and code a team can keep evolving.
 
 ## Things I’ve built
+
+### 🛒 [CartShift Studio](https://github.com/CartShift/CartShift-Studio)
+**Independent e-commerce product studio · Live platform · Public code**
+
+CartShift is the product ecosystem I built around a simple idea: e-commerce teams should not have to jump between a marketing site, scattered emails, audit tools, and delivery workflows just to move a project forward.
+
+It brings the customer journey and the delivery operation into one connected product: a conversion-focused public site, free diagnostics that create a useful first interaction, and a portal where clients and the agency can manage the work together.
+
+**What I built**
+- A multilingual Next.js platform spanning a public website and a multi-role agency/client portal
+- Consultation, request, client, workboard, and billing workflows in one operational surface
+- A free Store Analyzer that evaluates performance, SEO, accessibility, best practices, product pages, cart actionability, structured data, AI readiness, and competitors
+- Visual analysis with mobile/desktop screenshots, plus graceful fallbacks when browser-based analysis is unavailable
+- A reusable UI system with component variants, motion, RTL support, i18n, validation, optimistic server-state updates, and resilient error handling
+- A production architecture using Firebase Auth, Firestore, Storage, Cloud Functions, and Vercel
+
+`TypeScript` · `Next.js 16` · `React` · `Firebase` · `TanStack Query` · `Tailwind` · `Framer Motion` · `Zod` · `Puppeteer` · `Vercel`
+
+[Explore CartShift →](https://cart-shift.com/en) · [View the source →](https://github.com/CartShift/CartShift-Studio)
 
 ### 🎛️ [Atlas Irwin Release Engine](https://github.com/yotamon/Atlas-Irwin)
 **A creator-operations platform for an independent music project · Live in production**
@@ -66,7 +86,7 @@ The source is private, but I’m always happy to talk through the architecture, 
 
 | Build | Connect | Ship |
 | --- | --- | --- |
-| TypeScript · React · Next.js · Tailwind · React Query · Zustand | PostgreSQL · Supabase · Drizzle · Prisma · REST APIs · OAuth 2.1 / PKCE · Stripe · LLM APIs · MCP | Vercel · Docker · Playwright · Jest · Sentry · analytics · security headers |
+| TypeScript · React · Next.js · Tailwind · React Query · Zustand | PostgreSQL · Firebase · Supabase · Drizzle · Prisma · REST APIs · OAuth 2.1 / PKCE · Stripe · LLM APIs · MCP | Vercel · Docker · Playwright · Jest · Sentry · analytics · security headers |
 
 ## A little more human
 
@@ -78,4 +98,4 @@ Outside of software, I create electronic music and build creative tools around i
 
 ### Let’s build something people want to come back to.
 
-Start with my [portfolio & CV](https://cart-shift.com/cv), explore [Atlas Irwin](https://atlasirwin.com), or [email me](mailto:yotamon@gmail.com).
+Start with [CartShift Studio](https://cart-shift.com/en), browse my [portfolio & CV](https://cart-shift.com/cv), explore [Atlas Irwin](https://atlasirwin.com), or [email me](mailto:yotamon@gmail.com).
