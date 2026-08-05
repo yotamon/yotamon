@@ -66,6 +66,22 @@ What began as an artist homepage became a full creator-operations product: a pub
 
 [Explore the live product →](https://atlasirwin.com) · [Read the README →](https://github.com/yotamon/Atlas-Irwin)
 
+### [Liquid Loom](https://github.com/yotamon/Liquid-Loom)
+**Open-source Shopify theme development framework · Public code**
+
+Liquid Loom is a source-first workshop for building Shopify Online Store 2.0 themes without giving up modern frontend ergonomics. Developers organize Liquid and JSON by feature; the framework deterministically maps that source into Shopify's deployment structure while Vite and Tailwind handle the asset pipeline.
+
+**Why it stands out**
+- Feature-oriented theme source compiled into a clean, Shopify-ready output directory
+- SHA-256 incremental caching, preflight filename-collision detection, atomic manifests, and guarded clean operations
+- A merchant-neutral, accessible reference theme spanning home, product, collection, cart, search, page, and 404 surfaces
+- A complete quality gate: 15 tests, 96%+ line coverage, Prettier, clean builds, Shopify Theme Check, and a public-readiness scan
+- Open-source maintenance built in with CI, Dependabot, issue forms, contribution guidance, security reporting, and a protected main branch
+
+`JavaScript` · `Shopify Liquid` · `Online Store 2.0` · `Vite 8` · `Tailwind CSS 4` · `PostCSS` · `Node.js` · `pnpm`
+
+[Explore the framework →](https://github.com/yotamon/Liquid-Loom) · [Read the architecture →](https://github.com/yotamon/Liquid-Loom#the-build-in-one-picture)
+
 ### StarLinker
 **Private SaaS · A visual workspace for people who think in maps, not endless lists**
 
