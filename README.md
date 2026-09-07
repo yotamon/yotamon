@@ -1,12 +1,12 @@
 <div align="center">
 
-# Hey, I'm Yotam
+# Hey, I'm Yotam Faraggi
 
 **Senior Product Engineer turning fuzzy ideas into polished, AI-enabled products people genuinely enjoy using.**
 
 Berlin, Germany · EU citizen · Open to Senior Product & Full-Stack Engineering roles
 
-[CartShift Studio](https://cart-shift.com/en) · [Portfolio & CV](https://cart-shift.com/cv) · [Atlas Irwin](https://atlasirwin.com) · [Say hello](mailto:yotamon@gmail.com)
+[CartShift Studio](https://cart-shift.com/en) · [Portfolio & CV](https://cart-shift.com/en/cv) · [Atlas Irwin](https://atlasirwin.com) · [Say hello](mailto:yotamon@gmail.com)
 
 </div>
 
@@ -114,4 +114,4 @@ Outside of software, I create electronic music and build creative tools around i
 
 ### Let's build something people want to come back to.
 
-Start with [CartShift Studio](https://cart-shift.com/en), browse my [portfolio & CV](https://cart-shift.com/cv), explore [Atlas Irwin](https://atlasirwin.com), or [email me](mailto:yotamon@gmail.com).
+Start with [CartShift Studio](https://cart-shift.com/en), browse my [portfolio & CV](https://cart-shift.com/en/cv), explore [Atlas Irwin](https://atlasirwin.com), or [email me](mailto:yotamon@gmail.com).
