@@ -6,7 +6,7 @@
 
 Berlin, Germany · EU citizen · Open to Senior Product & Full-Stack Engineering roles
 
-[CartShift Studio](https://cart-shift.com/en) · [Portfolio & CV](https://cart-shift.com/en/cv) · [Atlas Irwin](https://atlasirwin.com) · [Say hello](mailto:yotamon@gmail.com)
+[Wake My Way](https://github.com/yotamon/WakeMyWay) · [CartShift Studio](https://cart-shift.com/en) · [Portfolio & CV](https://cart-shift.com/en/cv) · [Atlas Irwin](https://atlasirwin.com) · [Say hello](mailto:yotamon@gmail.com)
 
 </div>
 
@@ -31,6 +31,23 @@ I work across the whole product surface: UX, frontend architecture, backend serv
 
 ## Things I've built
 
+### [Wake My Way](https://github.com/yotamon/WakeMyWay)
+**Local-first conversational Android alarm · Founder dogfood · Public code**
+
+Wake My Way treats waking up as a state transition, not a notification. It starts with a reliability-first native Android alarm, then layers deterministic behavioral guidance, on-device speech, motion evidence, private night-before context, and local learning without letting AI own the critical wake path.
+
+**Why it stands out**
+- A Deep Alarm Kernel built around exact alarms, Direct Boot recovery, durable foreground playback, reconciliation, and safe Stop/Snooze behavior
+- A pure-Kotlin deterministic Wake Runtime that owns engagement, activation, escalation, capability degradation, and completion
+- A production local voice loop using offline Android TTS and on-device speech recognition, with bounded alarm ducking and no transcript persistence
+- Physical activation evidence from pickup, orientation change, and sustained movement without persisting raw sensor streams
+- Deterministic Wake Learning v0, a private Tomorrow Contract, an Adaptive Dawn Compose design system, and curated Roborazzi visual regression
+- Provider-neutral realtime voice experiments isolated from the critical alarm path so experimental AI can fail without breaking wake reliability
+
+`Kotlin` · `Jetpack Compose` · `Android AlarmManager` · `Direct Boot` · `SpeechRecognizer` · `TextToSpeech` · `Roborazzi` · `GitHub Actions` · `TypeScript` · `Vercel`
+
+[Explore the project →](https://github.com/yotamon/WakeMyWay) · [Read the architecture →](https://github.com/yotamon/WakeMyWay#architecture-in-one-picture)
+
 ### [CartShift Studio](https://github.com/CartShift/CartShift-Studio)
 **Independent e-commerce product studio · Live platform · Public code**
 
@@ -53,7 +70,7 @@ It brings the customer journey and the delivery operation into one connected pro
 ### [Atlas Irwin](https://github.com/yotamon/Atlas-Irwin)
 **Artist website + private release-operations studio · [Live](https://atlasirwin.com) · Public code**
 
-What began as an artist homepage became a full creator-operations product: a public catalog on one side and **Atlas Release Engine** on the other — planning releases, managing media, orchestrating campaigns, tracking performance, and connecting artist platforms.
+What began as an artist homepage became a full creator-operations product: a public catalog on one side and **Atlas Release Engine** on the other, planning releases, managing media, orchestrating campaigns, tracking performance, and connecting artist platforms.
 
 **Highlights**
 - Live Supabase catalog that updates the public player without a redeploy (`revalidateTag`)
@@ -102,7 +119,7 @@ The source is private, but I'm always happy to talk through the architecture, tr
 
 | Build | Connect | Ship |
 | --- | --- | --- |
-| TypeScript · React · Next.js · Tailwind · React Query · Zustand | PostgreSQL · Firebase · Supabase · Drizzle · Prisma · REST APIs · OAuth 2.1 / PKCE · Stripe · LLM APIs · MCP | Vercel · Docker · Playwright · Jest · Sentry · analytics · security headers |
+| TypeScript · React · Next.js · Kotlin · Jetpack Compose · Tailwind · React Query · Zustand | PostgreSQL · Firebase · Supabase · Drizzle · Prisma · REST APIs · OAuth 2.1 / PKCE · Stripe · LLM APIs · MCP | Vercel · Docker · Playwright · Jest · Android instrumentation · GitHub Actions · Sentry · analytics · security headers |
 
 ## A little more human
 
@@ -114,4 +131,4 @@ Outside of software, I create electronic music and build creative tools around i
 
 ### Let's build something people want to come back to.
 
-Start with [CartShift Studio](https://cart-shift.com/en), browse my [portfolio & CV](https://cart-shift.com/en/cv), explore [Atlas Irwin](https://atlasirwin.com), or [email me](mailto:yotamon@gmail.com).
+Start with [Wake My Way](https://github.com/yotamon/WakeMyWay), explore [CartShift Studio](https://cart-shift.com/en), browse my [portfolio & CV](https://cart-shift.com/en/cv), or [email me](mailto:yotamon@gmail.com).
