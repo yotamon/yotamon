@@ -6,7 +6,7 @@
 
 Berlin, Germany · EU citizen · Open to Senior Product & Full-Stack Engineering roles
 
-[Wake My Way](https://github.com/yotamon/WakeMyWay) · [CartShift Studio](https://cart-shift.com/en) · [Portfolio & CV](https://cart-shift.com/en/cv) · [Atlas Irwin](https://atlasirwin.com) · [Say hello](mailto:yotamon@gmail.com)
+[Wake My Way](https://github.com/yotamon/WakeMyWay) · [CartShift Studio](https://cart-shift.com/en) · [Professional profile & CV](https://cart-shift.com/en/yotam) · [Atlas Irwin](https://atlasirwin.com) · [Say hello](mailto:yotamon@gmail.com)
 
 </div>
 
@@ -131,4 +131,4 @@ Outside of software, I create electronic music and build creative tools around i
 
 ### Let's build something people want to come back to.
 
-Start with [Wake My Way](https://github.com/yotamon/WakeMyWay), explore [CartShift Studio](https://cart-shift.com/en), browse my [portfolio & CV](https://cart-shift.com/en/cv), or [email me](mailto:yotamon@gmail.com).
+Start with [Wake My Way](https://github.com/yotamon/WakeMyWay), explore [CartShift Studio](https://cart-shift.com/en), browse my [professional profile & CV](https://cart-shift.com/en/yotam), or [email me](mailto:yotamon@gmail.com).
