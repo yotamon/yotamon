@@ -1,134 +1,41 @@
-<div align="center">
+# Yotam Faraggi
+**Senior Full-Stack & Product Engineer | Berlin, Germany**
 
-# Hey, I'm Yotam Faraggi
+I build software from unclear product problems through architecture, UX, backend, integrations and production operations. My strongest work sits where complex workflows need to become dependable, understandable products.
 
-**Senior Product Engineer turning fuzzy ideas into polished, AI-enabled products people genuinely enjoy using.**
+**[Portfolio & CV](https://cart-shift.com/en/yotam) · [Email](mailto:yotamon@gmail.com) · [CartShift live](https://cart-shift.com/en) · [Public GitHub projects](https://github.com/yotamon?tab=repositories)**
 
-Berlin, Germany · EU citizen · Open to Senior Product & Full-Stack Engineering roles
+## Start here: four engineering stories
 
-[Wake My Way](https://github.com/yotamon/WakeMyWay) · [CartShift Studio](https://cart-shift.com/en) · [Professional profile & CV](https://cart-shift.com/en/yotam) · [Atlas Irwin](https://atlasirwin.com) · [Say hello](mailto:yotamon@gmail.com)
-
-</div>
-
----
-
-> I like making complex things feel obvious.
-
-I'm happiest when a messy workflow, a half-formed idea, or a pile of disconnected tools turns into a product that feels clear, calm, and surprisingly easy to use.
-
-I work across the whole product surface: UX, frontend architecture, backend services, data models, AI workflows, integrations, auth, operations, and the unglamorous details that make software dependable in the real world.
-
-| What I'm drawn to | What I tend to own |
-| --- | --- |
-| AI-native workflows · e-commerce · creative tools · operational products · systems that reduce cognitive load | Product direction · UX decisions · frontend · backend · data · integrations · security · shipping |
-
-## The kind of problems I love
-
-- **Turning complexity into momentum.** I design flows that help people get to the next useful action instead of drowning in options.
-- **Connecting the real world to the product.** OAuth, APIs, webhooks, payments, data sync, permissions, and all the edge cases in between.
-- **Building AI that belongs in the workflow.** Useful assistance, not a chatbot bolted onto the side.
-- **Making systems future-friendly.** Clear boundaries, migrations, observability, sensible defaults, and code a team can keep evolving.
-
-## Things I've built
-
-### [Wake My Way](https://github.com/yotamon/WakeMyWay)
-**Local-first conversational Android alarm · Founder dogfood · Public code**
-
-Wake My Way treats waking up as a state transition, not a notification. It starts with a reliability-first native Android alarm, then layers deterministic behavioral guidance, on-device speech, motion evidence, private night-before context, and local learning without letting AI own the critical wake path.
-
-**Why it stands out**
-- A Deep Alarm Kernel built around exact alarms, Direct Boot recovery, durable foreground playback, reconciliation, and safe Stop/Snooze behavior
-- A pure-Kotlin deterministic Wake Runtime that owns engagement, activation, escalation, capability degradation, and completion
-- A production local voice loop using offline Android TTS and on-device speech recognition, with bounded alarm ducking and no transcript persistence
-- Physical activation evidence from pickup, orientation change, and sustained movement without persisting raw sensor streams
-- Deterministic Wake Learning v0, a private Tomorrow Contract, an Adaptive Dawn Compose design system, and curated Roborazzi visual regression
-- Provider-neutral realtime voice experiments isolated from the critical alarm path so experimental AI can fail without breaking wake reliability
-
-`Kotlin` · `Jetpack Compose` · `Android AlarmManager` · `Direct Boot` · `SpeechRecognizer` · `TextToSpeech` · `Roborazzi` · `GitHub Actions` · `TypeScript` · `Vercel`
-
-[Explore the project →](https://github.com/yotamon/WakeMyWay) · [Read the architecture →](https://github.com/yotamon/WakeMyWay#architecture-in-one-picture)
-
-### [CartShift Studio](https://github.com/CartShift/CartShift-Studio)
-**Independent e-commerce product studio · Live platform · Public code**
-
-CartShift is the product ecosystem I built around a simple idea: e-commerce teams should not have to jump between a marketing site, scattered emails, audit tools, and delivery workflows just to move a project forward.
-
-It brings the customer journey and the delivery operation into one connected product: a conversion-focused public site, free diagnostics that create a useful first interaction, and a portal where clients and the agency can manage the work together.
-
-**What I built**
-- A multilingual Next.js platform spanning a public website and a multi-role agency/client portal
-- Consultation, request, client, workboard, and billing workflows in one operational surface
-- A free Store Analyzer that evaluates performance, SEO, accessibility, best practices, product pages, cart actionability, structured data, AI readiness, and competitors
-- Visual analysis with mobile/desktop screenshots, plus graceful fallbacks when browser-based analysis is unavailable
-- A reusable UI system with component variants, motion, RTL support, i18n, validation, optimistic server-state updates, and resilient error handling
-- A production architecture using Firebase Auth, Firestore, Storage, Cloud Functions, and Vercel
-
-`TypeScript` · `Next.js 16` · `React` · `Firebase` · `TanStack Query` · `Tailwind` · `Framer Motion` · `Zod` · `Puppeteer` · `Vercel`
-
-[Explore CartShift →](https://cart-shift.com/en) · [View the source →](https://github.com/CartShift/CartShift-Studio)
-
-### [Atlas Irwin](https://github.com/yotamon/Atlas-Irwin)
-**Artist website + private release-operations studio · [Live](https://atlasirwin.com) · Public code**
-
-What began as an artist homepage became a full creator-operations product: a public catalog on one side and **Atlas Release Engine** on the other, planning releases, managing media, orchestrating campaigns, tracking performance, and connecting artist platforms.
-
-**Highlights**
-- Live Supabase catalog that updates the public player without a redeploy (`revalidateTag`)
-- Private Studio: Command Center, release workspaces, campaigns, media library, data health, analytics
-- SoundCloud & Spotify OAuth 2.1 with PKCE, private token storage, and intentional reconciliation (no silent catalog invention)
-- Security-first: Supabase RLS, studio route guards, CSP/HSTS, rate-limited APIs, Studio `noindex`
-- Import/migration tooling that turned legacy release folders into a maintainable product system
-
-`TypeScript` · `Next.js 16` · `React 19` · `Supabase` · `PostgreSQL` · `OAuth 2.1 / PKCE` · `Zod` · `Tailwind 4` · `Vercel`
-
-[Explore the live product →](https://atlasirwin.com) · [Read the README →](https://github.com/yotamon/Atlas-Irwin)
-
-### [Liquid Loom](https://github.com/yotamon/Liquid-Loom)
-**Open-source Shopify theme development framework · Public code**
-
-Liquid Loom is a source-first workshop for building Shopify Online Store 2.0 themes without giving up modern frontend ergonomics. Developers organize Liquid and JSON by feature; the framework deterministically maps that source into Shopify's deployment structure while Vite and Tailwind handle the asset pipeline.
-
-**Why it stands out**
-- Feature-oriented theme source compiled into a clean, Shopify-ready output directory
-- SHA-256 incremental caching, preflight filename-collision detection, atomic manifests, and guarded clean operations
-- A merchant-neutral, accessible reference theme spanning home, product, collection, cart, search, page, and 404 surfaces
-- A complete quality gate: 15 tests, 96%+ line coverage, Prettier, clean builds, Shopify Theme Check, and a public-readiness scan
-- Open-source maintenance built in with CI, Dependabot, issue forms, contribution guidance, security reporting, and a protected main branch
-
-`JavaScript` · `Shopify Liquid` · `Online Store 2.0` · `Vite 8` · `Tailwind CSS 4` · `PostCSS` · `Node.js` · `pnpm`
-
-[Explore the framework →](https://github.com/yotamon/Liquid-Loom) · [Read the architecture →](https://github.com/yotamon/Liquid-Loom#the-build-in-one-picture)
-
-### StarLinker
-**Private SaaS · A visual workspace for people who think in maps, not endless lists**
-
-StarLinker turns goals, tasks, notes, habits, and relationships into an interactive visual system. The product is designed around spatial context: seeing what matters, what connects, and what to do next.
-
-**What makes it interesting**
-- Real-time collaboration, role-based access, offline-aware sync, and shareable workspaces
-- Rich graph interactions: keyboard-first flows, templates, undo/redo, and connected entities
-- AI-assisted planning, task breakdown, graph-aware recommendations, and MCP access
-- Subscription billing, account lifecycle, audit logs, admin workflows, and monitoring
-- Web, PWA, and Capacitor mobile surfaces
-
-`TypeScript` · `Next.js` · `PostgreSQL` · `Drizzle` · `Supabase` · `Replicache` · `React Flow` · `Vercel AI SDK` · `Stripe` · `Sentry` · `Playwright`
-
-The source is private, but I'm always happy to talk through the architecture, trade-offs, and the product decisions behind it.
-
-## My working toolkit
-
-| Build | Connect | Ship |
+| Project | What it demonstrates | Evidence / current status |
 | --- | --- | --- |
-| TypeScript · React · Next.js · Kotlin · Jetpack Compose · Tailwind · React Query · Zustand | PostgreSQL · Firebase · Supabase · Drizzle · Prisma · REST APIs · OAuth 2.1 / PKCE · Stripe · LLM APIs · MCP | Vercel · Docker · Playwright · Jest · Android instrumentation · GitHub Actions · Sentry · analytics · security headers |
+| **[CartShift Studio](https://github.com/CartShift/CartShift-Studio)** | Full-stack product ownership: bilingual site, commerce diagnostics, multi-role client/agency operations, Firebase and deployment | [Live website](https://cart-shift.com/en) · [Engineering story](stories/cartshift.md). Production quality and funnel verification continue; individual commercial outcomes are not claimed without evidence. |
+| **[Wake My Way](https://github.com/yotamon/WakeMyWay)** | Android reliability engineering: critical alarm isolated from AI, typed deterministic wake state machine, lifecycle and recovery | [Architecture](https://github.com/yotamon/WakeMyWay#architecture-in-one-picture) · [Engineering story](stories/wakemyway.md). Founder dogfood, **not** publicly launch-certified; physical-device and live-voice acceptance remain open. |
+| **[Liquid Loom](https://github.com/yotamon/Liquid-Loom)** | Developer tooling: incremental Shopify theme adoption, deterministic ownership map, collision prevention and transactional builds | [CLI / setup](https://github.com/yotamon/Liquid-Loom#start-with-the-theme-you-already-have) · [Engineering story](stories/liquid-loom.md). Release automation and packed-package tests documented; external Shopify-user validation remains open. |
+| **[Ensemblis](https://github.com/yotamon/Atlas-Irwin)** (repository historically named Atlas-Irwin) | Multi-artist AI workflows, data scope, music-to-marketing orchestration, permissioned actions and operational design | [Public reference artist](https://atlasirwin.com) · [Architecture](https://github.com/yotamon/Atlas-Irwin#architecture). The public artist site is live; the broader SaaS is **not** certified for public GA. |
 
-## A little more human
+**Other work:** StarLinker is a private, graph-first collaborative workspace exploring offline-aware sync, permission-aware AI and spatial UX. [RightFlow](https://github.com/RightFlow-Inc/rightpay) explores evidence-traceable document analysis and explicitly gated real-data launch readiness.
 
-I'm a builder, a music maker, and someone who notices when a product has too many steps.
+## How I approach engineering
 
-Outside of software, I create electronic music and build creative tools around it. It keeps me close to the kind of user experience I care most about: expressive enough to feel inspiring, structured enough to be useful.
+- **Make authority explicit.** Important outcomes belong to typed domain rules and proven state transitions, not an optimistic UI or an LLM response.
+- **Keep risky integrations behind boundaries.** Authentication, payments, external effects, tenant isolation, privacy, provider errors and retries are product design concerns.
+- **Prefer evidence over feature lists.** Testing, observability, production checks, user feedback and honest release status matter more than a long roadmap.
+- **Design for the operator and end user.** Clear next actions, accessible states, localization, fallbacks and explainable failures are part of quality.
+
+My work spans `TypeScript`, `React`, `Next.js`, `Node.js`, `Kotlin`, `Jetpack Compose`, `PostgreSQL`, `Firebase`, `Supabase`, `OAuth`, `REST APIs`, `CI/CD`, `Playwright` and AI integrations. The tool is less important than understanding the trade-off.
+
+## What I can walk through in an interview
+
+1. **Reliability vs. intelligence:** why Wake My Way's Android alarm must still function if voice, networking, permissions or AI fail.
+2. **Safe incremental migration:** how Liquid Loom handles existing Shopify files, generated assets, one-owner collisions and failed builds.
+3. **Product architecture with real operational constraints:** how CartShift joins customer acquisition and delivery workflows, and how I distinguish implemented functionality from production-verified outcomes.
+4. **AI with controlled effects:** how Ensemblis scopes artist data and requires appropriate approval for consequential actions.
+
+The linked engineering stories separate **implemented**, **documented/tested**, and **still to validate**. I don't publish invented adoption, revenue, uptime or performance numbers.
 
 ---
 
-### Let's build something people want to come back to.
+**Open to Senior Full-Stack Engineer and Senior Product Engineer roles.** I value pragmatic teams that care about product outcomes, thoughtful design, technical quality and candid communication.
 
-Start with [Wake My Way](https://github.com/yotamon/WakeMyWay), explore [CartShift Studio](https://cart-shift.com/en), browse my [professional profile & CV](https://cart-shift.com/en/yotam), or [email me](mailto:yotamon@gmail.com).
+[View portfolio & CV](https://cart-shift.com/en/yotam) · [Contact me](mailto:yotamon@gmail.com)
